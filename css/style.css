@@ -1,0 +1,94 @@
+       @import-face		{
+				font-family: 'DejaVuSerif-Bold';
+				/*font-source: url('../fonts/DejaVuSans-ExtraLight.woff');*/
+				source: url('fonts/DejaVuSerif-Bold.woff');
+	  }
+	  @font-face {
+				font-family: 'PT Sans Narrow';
+				font-style: normal;
+				font-weight: 400;
+				src: url('../fonts/pt-sans-narrow-v10-latin-regular.eot'); /* IE9 Compat Modes */
+				src: local('PT Sans Narrow'), local('PTSans-Narrow'),
+				url('../fonts/pt-sans-narrow-v10-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+				url('../fonts/pt-sans-narrow-v10-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+				url('../fonts/pt-sans-narrow-v10-latin-regular.woff') format('woff'), /* Modern Browsers */
+				url('../fonts/pt-sans-narrow-v10-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+				url('../fonts/pt-sans-narrow-v10-latin-regular.svg#PTSansNarrow') format('svg'); /* Legacy iOS */
+	  }
+      body           { line-height: 1.2em; background-color:#eee; margin:0;padding:0;
+						font-size: 1.2em; color: #666; font-weight: light;
+						background-image:url("../images/name.png");
+						background-repeat:no-repeat;
+						background-attachement: scroll;
+						font-family: 'PT Sans Narrow';
+						
+					   }
+	  form	 		 { padding: 2em 0 0 16; }
+	  div.search form { margin-left: 10%; }
+	  form input	 { width: 24em; line-height:1.8em; background-color: #f8fcfe; color:#888; 
+						border: 1px solid #bbb; border-radius: 5px 5px 5px 5px;margin:3px; padding:2px;}
+	  textarea		 { background-color: #f8fcfe; color:#888; border: solid 1px #bbc;margin:3px; padding:2px;}
+	  form label	 { font-size: 1.2em; padding-rignt: .5em; line-height:1.6em; }
+	  form.submit	 { background-color: #66f; color: #fff; 
+						margin-top: 6px; font-weight: bold; text-transform: uppercase; font-size: large; }
+					   
+	  a:hover,li	 { color:#966; }
+	  a:visited		 { color:#c33; }
+      hr             { color:#eee;margin-top:18px;margin-bottom:18px;}
+      h1,h2,h3             { color:#9c9; padding-left:10px; }
+	  h4, div.menu a,
+	  div.side-menu a { font-family: 'PT Sans Narrow'; font-size: large;}
+      
+      p,h2,h4        { padding: 0.2em 2em;}
+      div.menu       { width: auto; top:2%;background-color:#999; height:28px;
+                      border-bottom: 1px solid #666; padding-left:2em; }
+      div.menu a	 { color: #fff; padding-right: 2em; line-height: 1.6em;
+						text-transform: uppercase; text-decoration:none; 
+						font-weight: 400; font-size:1.2em;
+						
+						}
+	  input.submit		{ background-color: #c99; color: #fff; }
+						
+	  a				 { text-decoration:none; color:#c99; }
+	  
+      div            {border:solid 1 #ccc;}
+      div.header     { }
+      div.top        { background:#c99; solid #333; height:100px;padding:0; }
+      div.footer     { background:#c99; solid #333; height:100px;padding:0;
+					   border-left:2px solid #ddd; border-right:2px solid ccc; 
+                      float:none; margin: auto; width:60%;
+                      }
+      div.container  {}
+      div.content    {}
+      div.footer     {margin-top:250px;margin-botton:0;margin-right:0; width:100%;}
+      div.text, 
+      div.top       {
+                      border-left:2px solid #ddd; border-right:2px solid ccc; 
+                      float:none; margin: auto; width:60%;}
+      div.top span	 { padding-left:1em;font-size:3em; color:#fff;}
+      div.text       { background-color:#fff; font-size: 96%; min-height:600px; display:compact;box-sizing:1em;
+						}
+						
+		div.text blockquote p { font-family: 'Times'; font-weight:100;}
+     
+                      
+      div.side-menu  {
+						width:18%;position:absolute;
+						border:1px solid #fcc;
+						top:1.6em; 
+						margin-left:61%;float:right;
+						background-color:#fff;
+						background-attachement:fixed;
+						box-align:end;
+						box-sizing:1;
+						
+					 }
+	  div.side-menu a	{ margin-right:40%; padding:1.4em; text-decoration: none; color: #966 }
+	  div.side-top		{ background-color:#caa; margin: 0;margin-top:0;position:absolute; width:100%; height:2em; }
+	  div.side-top span	{ color:#000; padding-left: 1em; line-height:2em; font-weight:bold;
+						  font-family: 'PT Sans Narrow'; font-size: medium;
+						}
+	  div.side-bottom	{ background-color:#c99; margin: 0; margin-top: 1.2em; width:100%; height:6em; }
+	  
+      div.social-media  { float:right; margin-right:10px;}
+      div.date-author	{ color:#999; font-size: 1.2em; }
